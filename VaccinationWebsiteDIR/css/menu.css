@@ -3,8 +3,8 @@
 }
 header label {
     float: right;
-    font-size: 28px;
-    margin: 6px 0;
+    font-size: 20px;
+    margin: 5px 0;
     /*para que aparezca el icono de mano al posicionar el puntero en el menu*/
     cursor: pointer;
 }

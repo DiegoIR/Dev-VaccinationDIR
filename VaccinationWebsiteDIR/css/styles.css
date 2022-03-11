@@ -6,7 +6,6 @@
     margin:0;
     padding: 0;
     box-sizing: border-box;
-    /*<img class=backg src="img/background.jpg" alt="background">*/
 }
 
 body {
@@ -15,7 +14,7 @@ body {
 
 header {
     width: 100%;
-    height: 50px;
+    height: 40px;
     /*solo para identificar el tamaño del header, retirar background antes de finalizar*/
     background: #f4f7fa;
     color: #2c4bc6;
@@ -27,12 +26,14 @@ header {
 }
 
 .container {
-    width: 98%;
+    width: 85%;
     margin: auto;
 }
 
 h1 {
     float: left;
+    font-size: 20px;
+    letter-spacing: normal;
 }
 header.container {
     display: table;
