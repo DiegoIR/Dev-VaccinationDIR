@@ -1,0 +1,32 @@
+#footer {
+    display: none;
+}
+
+footer #abs {
+    display: flex;
+    float: right;
+    cursor: pointer;
+}
+
+footer #txt {
+    display: flex;
+    float: right;
+}
+
+#legal div{
+    display: flex;
+    align-items:flex-end;
+    cursor: pointer;
+}
+
+#abs h2 {
+    padding-right: 60px;
+}
+
+#txt p {
+    padding-right: 30px;
+}
+
+#legal {
+    padding-right: 60px;
+}

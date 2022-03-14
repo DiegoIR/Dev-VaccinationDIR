@@ -1,102 +1,135 @@
 #banner {
-    margin-top: 50px;
+    margin-top: 40px;
 }
 
 #banner .container {
     position: absolute;
-    top: 47%;
+    top: 52%;
     left: 50%;
     transform: translateX(-50%) translateY(-50%);
     color: #1e3e73;
 }
 
-#banner h2 {
-    font-size: 45px;
-    font-weight:900;
-    letter-spacing: -2pt;
+#bancont {
+    display: flex;
+    flex-flow: column wrap;
 }
 
-#banner h3 {
-    font-size: 12px;
-    font-weight:100;
+
+#banner h2 {
+    font-size: 50px;
+    font-weight:900;
+    letter-spacing: -1pt;
+    line-height:1em;
 }
+
 
 .boxbanner {
     width: 780px;
-    height: 80px;
+    height: 86px;
     background-color: rgba(255, 255, 255, 0.9);
     border-radius: 8px;
     display:flex;
-    justify-content: left;
+    justify-content: center left;
     align-items: center;
     align-content: center;
-    display:flex;
-    flex-direction:row;
     box-shadow: 2.0px 2.0px 1px rgba(255,255,255,255);
 }
 
-.elements {
+#elements li {
     font-size: 13px;
     font-weight: lighter;
-    display:flex;
-    flex-direction:row;
+    display: inline;
+    padding-left: 0px;
+    padding-right: 14px;
+    letter-spacing: 0.5pt;
 }
 
 .shedule {
-    font-size: 13px;
-    font-weight: lighter;
+    font-size: 16px;
+    font-weight: bolder;
+    letter-spacing: 1pt;
     display:flex;
     flex-direction:row;
 }
 
-.descrip {
-    font-size: 13px;
+#descrip li{
+    font-size: 14px;
     font-weight: lighter;
-    display:flex;
-    flex-direction:row;
-    padding-block-start: 0em;
+    display: inline;
+    padding-left: 0px;
+    padding-right: 130px;
 }
 
-.options {
-    font-size: 13px;
+.options input{
+    width: 160px;
+    height: 26px;
+    font-size: 10px;
     font-weight: lighter;
-    display:flex;
-    flex-direction:row;
+    display: inline;
+    margin: 12px;
+    padding-right: 25px;
+    border-color: rgba(255,255,255,0.2);
 }
 
-#send div {
-    position: absolute;
-    justify-items: right;
-}
-
-#banner .imput {
+#banner .input1 {
     float: right;
-    margin: 160px;
+    margin: -20px;
     display: block;
-    width: 110px;
-    height: 40px;
-    font-size:12px;
+    width: 120px;
+    height: 45px;
+    font-size:14px;
     font-weight:600;
     color: #fff;
     background-color: #2b4ac9;
     text-decoration: none;
-    padding: 7px;
+    padding: 6px;
     align-content: center;
     border: 3px solid #2b4ac9;
     border-radius: 4.5px;
     box-shadow: 2.0px 2.0px 1px rgba(176,188,235,255);
 }
 
-#banner a:hover {
-    background: rgba(51, 51, 51, 0.5);
+#send input:hover {
+    background: #fff;
+    color: #3657d5;
 }
 
 .imgbanner {
-    height:500px;
+    height:720px;
     text-align: right;
 }
 img {
  width: 50%; 
- max-height: 100%;
+ height: 60%;
 }
+
+#elements li {
+    color: #ffd113;
+}
+
+#elements span {
+    color: #284779;
+}
+
+.icon-clock {
+    color: #3454d2;
+}
+
+.icon-location {
+    color: #3454d2;
+}
+
+.icon-calendar-inv {
+    color: #3454d2;
+}
+
+.icon-pencil {
+    color: #3454d2;
+}
+
+
+
+
+
 
